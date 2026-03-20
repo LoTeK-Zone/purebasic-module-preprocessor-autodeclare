@@ -1,4 +1,4 @@
-# LoTeK_PureBasic_PreProcessor_AutoDeclare
+# LoTeK PureBasic PreProcessor AutoDeclare
 
 AutoDeclare is a PureBasic preprocessor tool that synchronizes `Declare`, `DeclareModule`, `Module`, and compiler-scope declarations with existing `Procedure` definitions inside a single `.pb` source file.
 
