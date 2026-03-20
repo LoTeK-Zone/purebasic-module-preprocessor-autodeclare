@@ -8,7 +8,7 @@ AutoDeclare is a PureBasic preprocessor tool that synchronizes `Declare`, `Decla
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=flat-square&logo=windows)
 ![Platform](https://img.shields.io/badge/platform-Linux-FCC624?style=flat-square&logo=linux)
 ![Platform](https://img.shields.io/badge/platform-macOS-999999?style=flat-square&logo=apple)
-![Version](https://img.shields.io/badge/version-v1.0.0-blue?style=flat-square&logo=github)
+![Version](https://img.shields.io/badge/version-v0.3.0-blue?style=flat-square&logo=github)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square&logo=open-source-initiative)
 
