@@ -35,17 +35,17 @@ The source file is modified in place.
 
 ## Releases
 
-### Window x64
+### Windows x64
 
 A precompiled **Windows x64** build is available in the **Releases** section.
 
-- File: `LoTeK_PureBasic_PreProcessor_AutoDeclare.exe`
+- File: `LoTeK_PureBasic_PreProcessor_AutoDeclare_Win64_v0.3.0.exe`
 - Platform: Windows 64-bit
 - Built with: PureBasic 6.30
 
 If you do not want to compile the tool yourself, you can download the ready-to-use executable from the latest release.
 
-**Download:** [PLACEHOLDER_RELEASE_LINK]
+**Download:** [LoTeK_PureBasic_PreProcessor_AutoDeclare_Win64_v0.3.0.exe](https://github.com/LoTeK-Zone/purebasic-module-preprocessor-autodeclare/releases/download/v0.3.0/LoTeK_PureBasic_PreProcessor_AutoDeclare_Win64_v0.3.0.exe)
 
 ## Note on the position of generated declares
 
@@ -314,7 +314,7 @@ Typical workflow:
 4. generate missing correct declarations
 5. save the processed file back to disk
 
-For manual testing, use `tests/Test_AutoDeclare.pb`.
+For manual testing, use `tests/TestFile.pb`.
 
 The module also provides a test/debug mode so a dedicated test file can be processed instead of the IDE-supplied file parameter.
 
@@ -347,14 +347,6 @@ It does not try to:
 - act as a general formatter
 
 Its purpose is strictly limited to keeping declaration blocks consistent with the actual procedures found in the currently processed file.
-
-## Release
-
-Download compiled EXE:
-[PLACEHOLDER_RELEASE_LINK]
-
-Source repository:
-[PLACEHOLDER_REPOSITORY_LINK]
 
 ## Version
 
