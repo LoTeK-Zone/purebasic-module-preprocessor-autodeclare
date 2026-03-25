@@ -141,12 +141,12 @@ For manual testing, see:
 ```text
 purebasic-module-preprocessor-autodeclare
 ├── assets
-│     └── img
-│           └── Installation_PB_IDE_Screenshot_1.png
+│   └── img
+│       └── Installation_PB_IDE_Screenshot_1.png
 ├── src
-│     └── Mod_AutoDeclare.pb
+│   └── Mod_AutoDeclare.pb
 ├── tests
-│     └── TestFile.pb
+│   └── TestFile.pb
 ├── AGENTS.md
 ├── CHANGELOG.md
 ├── LICENSE
