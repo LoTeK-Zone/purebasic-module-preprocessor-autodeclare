@@ -43,10 +43,10 @@ If you do not want to compile the tool yourself, you can download the ready-to-u
 - generates missing declarations
 - removes obsolete declarations
 - removes duplicate declarations
-- validates typed declarations
 - supports `DeclareModule`
 - supports `Module`
-- supports compiler scope
+- supports compiler scope (`CompilerIf #PB_Compiler_IsMainFile`)
+- supports multiple modules
 - processes one file at a time
 
 ## Technical Notes
@@ -74,35 +74,21 @@ AutoDeclare compares declarations and procedures by:
 The tool:
 1. removes wrong declarations
 2. removes obsolete declarations
-3. removes duplicates
-4. inserts missing valid declarations
-
-It does not perform general refactoring.
-
-### Supported
-
-- PureBasic `.pb` source files
-- global declarations and procedures
-- `DeclareModule`
-- `Module`
-- multiple modules in one file
-- `CompilerIf #PB_Compiler_IsMainFile`
-- typed declarations
+3. removes duplicate declarations
+4. inserts missing declarations
 
 ### Not Supported
 
-- cross-file analysis
-- `XIncludeFile` dependency tracking
+- `(X)IncludeFile` dependency tracking
 - project-wide scanning
-- DLL import declaration management
-- full semantic parsing beyond declaration synchronization
+- ProcedureDLL
 
 ### Notes
 
 The tool inserts detected `Declare` statements at a sensible default location:
 - in the global scope at the top of the file
 - inside `DeclareModule`, `Module`, or `CompilerIf #PB_Compiler_IsMainFile` blocks at the top of these sections
-- after `EnableExplicit`, if present
+- after `EnableExplicit`, if present in a scope
 
 Depending on the project structure, it may still be necessary to move generated `Declare` lines manually afterwards, for example below structure definitions, constants, prototypes, or other project-specific declaration sections.
 
