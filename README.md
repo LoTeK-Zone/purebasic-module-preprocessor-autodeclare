@@ -26,17 +26,29 @@ This project was developed with the assistance of AI tools for research, coding 
 
 ## Releases
 
-### Windows x64
-
-A precompiled **Windows x64** build is available in the **Releases** section.
-
-- File: `LoTeK_PureBasic_PreProcessor_AutoDeclare_Win64_v0.3.0.exe`
-- Platform: Windows 64-bit
-- Built with: PureBasic 6.30
-
 If you do not want to compile the tool yourself, you can download the ready-to-use executable from the latest release.
 
+### Windows 64-bit
+
+File: `LoTeK_PureBasic_PreProcessor_AutoDeclare_Win64_v0.3.0.exe`
+
+Build Environment:
+- Platform: Windows 11 64-bit
+- Built with: PureBasic 6.30
+- Tested on: Windows 11 x64
+
 **Download:** [LoTeK_PureBasic_PreProcessor_AutoDeclare_Win64_v0.3.0.exe](https://github.com/LoTeK-Zone/purebasic-module-preprocessor-autodeclare/releases/download/v0.3.0/LoTeK_PureBasic_PreProcessor_AutoDeclare_Win64_v0.3.0.exe)
+
+### Linux 64-bit
+
+File: `LoTeK_PureBasic_PreProcessor_AutoDeclare_Linux64_v0.3.0`
+
+Build Environment:
+- Platform: Ubuntu 24.04 LTS 64-bit
+- Built with: PureBasic 6.30
+- Tested on: Ubuntu 24.04 LTS x64
+
+**Download:** [LoTeK_PureBasic_PreProcessor_AutoDeclare_Linux64_v0.3.0](https://github.com/LoTeK-Zone/purebasic-module-preprocessor-autodeclare/releases/download/v0.3.0/LoTeK_PureBasic_PreProcessor_AutoDeclare_Linux64_v0.3.0)
 
 ## Features
 
