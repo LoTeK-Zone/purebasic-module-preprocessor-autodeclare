@@ -1158,19 +1158,3 @@ CompilerIf #PB_Compiler_IsMainFile
    Mod_PreProcessor_AutoDeclare::Init()
 
 CompilerEndIf
-
-; IDE Options = PureBasic 6.30 (Windows - x64)
-; CursorPosition = 385
-; Folding = -------
-; Optimizer
-; EnableThread
-; EnableXP
-; DPIAware
-; Executable = ..\..\..\PB\IDE_TOOLS\Preprocessor_Auto_Declare.exe
-; EnablePurifier
-; VersionField5 = v0.3.0
-; VersionField6 = PureBasic PreProcessor for Auto-Declaring Procedures
-; VersionField9 = MIT-License
-; VersionField13 = info@lotek-zone.com
-; VersionField14 = https://lotek-zone.com
-; VersionField16 = VFT_APP
